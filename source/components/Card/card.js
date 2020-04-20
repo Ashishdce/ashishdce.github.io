@@ -1,5 +1,5 @@
 (async () => {
-  const res = await fetch('components/Card/card-template.html');
+  const res = await fetch('source/components/Card/card-template.html');
   const textTemplate = await res.text();
 
   // Parse and select the template tag here instead 

@@ -3,7 +3,7 @@ import {
 } from '../../utils/index.js';
 
 (async () => {
-  const res = await fetch('components/EditableField/template.html');
+  const res = await fetch('source/components/EditableField/template.html');
   const textTemplate = await res.text();
 
   const HTMLTemplate = new DOMParser().parseFromString(textTemplate, 'text/html').querySelector('template');

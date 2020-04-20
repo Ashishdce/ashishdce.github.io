@@ -3,7 +3,7 @@ import {
 } from '../../utils/index.js';
 
 (async () => {
-  const res = await fetch('components/List/list-template.html');
+  const res = await fetch('source/components/List/list-template.html');
   const textTemplate = await res.text();
 
   // Parse and select the template tag here instead 

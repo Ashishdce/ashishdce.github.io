@@ -3,7 +3,7 @@ import {
 } from '../../utils/index.js';
 
 (async () => {
-  const res = await fetch('components/Dashboard/dashboard-template.html');
+  const res = await fetch('source/components/Dashboard/dashboard-template.html');
   const textTemplate = await res.text();
 
   // Parse and select the template tag here instead 
